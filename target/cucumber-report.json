@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "As a user i enter a search criteria in Google",
+        "description": "",
+        "id": "test-google-search-funcionality.;as-a-user-i-enter-a-search-criteria-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4870876100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Iam on the google search page",
+            "match": {
+              "location": "GoogleHomeSteps.navigateToGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 266928500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the search criteria",
+            "match": {
+              "location": "GoogleHomeSteps.enterSearchCriteria()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1248115400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click in the search button",
+            "match": {
+              "location": "GoogleHomeSteps.clickSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73453100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The result match the criteria",
+            "match": {
+              "location": "GoogleHomeSteps.validateResults()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Google Search Funcionality.",
+    "description": "",
+    "id": "test-google-search-funcionality.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Google.feature",
+    "tags": []
+  }
+]
